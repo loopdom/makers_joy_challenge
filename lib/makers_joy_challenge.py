@@ -64,7 +64,17 @@ my_song_list = [
         '''something wistful:
         https://www.youtube.com/watch?v=-LgQhfusf_E''',
         '''something about being a lovely horse!
-        https://www.youtube.com/watch?v=dYFrpG9VqU8'''
+        https://www.youtube.com/watch?v=dYFrpG9VqU8''',
+        '''something with a nice beat:
+        https://www.youtube.com/watch?v=Rfhx7ZdmUpk&pp=ygUKdGlyemFoIGYyMg%3D%3D''',
+        '''something from space:
+        https://www.youtube.com/watch?v=eVqFnuaW4JQ''',
+        '''something funky:
+        https://www.youtube.com/watch?v=GRdYqxakKIE''',
+        '''something to cure your headache (or give you a new one...):
+        https://www.youtube.com/watch?v=VpoOjoiYcWY''',
+        '''something to get you in the code zone:
+        https://www.youtube.com/watch?v=GGi6CygbpNQ'''
 ]
 
 joy_randomiser = JoyRandomiser(my_quotation_list, my_song_list)
