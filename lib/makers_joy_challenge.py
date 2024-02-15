@@ -6,7 +6,7 @@ class JoyRandomiser():
         self.quotation_list = quotation_list
         self.song_list = song_list
         self.random_result = ''
-
+  
     def randomise(self):
         self.random_result = f'''
         Thanks for using the randomiser!
