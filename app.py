@@ -28,7 +28,7 @@ class JoyRandomiser():
         return self.random_result
 
 database_connection = DatabaseConnection()
-db_connection = database_connection.connect()
-joy_randomiser = JoyRandomiser(db_connection)
+database_connection.connect()
+joy_randomiser = JoyRandomiser(database_connection)
 joy_randomiser.randomise('reflective')
 print(joy_randomiser.random_result)
