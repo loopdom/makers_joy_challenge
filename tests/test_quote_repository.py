@@ -16,7 +16,7 @@ def test_quote_all(db_connection):
         Quote(5, 'So it`s true when all is said and done, grief is the price we pay for love ', 'E.A Bucchianeri','sad')
     ]
 
-def test_select_by_mode(db_connection):
+def test_select_by_mood(db_connection):
     db_connection.seed('seeds/joy_challenge_tables.sql')
 
     quote_repository = QuoteRepository(db_connection)
